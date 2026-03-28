@@ -1,10 +1,5 @@
 package com.example.nduwelcome
 
-/**
- * MODULE 3: THE DATA MODEL
- * We move from hardcoding strings to using a structured object.
- * This allows us to handle hundreds of students using a single layout template.
- */
 data class Student(
     val id: Int,
     val name: String,
